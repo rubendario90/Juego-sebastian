@@ -9,7 +9,13 @@ alto_ventana = 600
 FPS = 60
 
 # Colors
-color_fondo = (255, 255, 255)
+color_fondo = (135, 206, 235)  # Cielo azul en lugar de blanco
+
+# Game Colors
+COLOR_UI_TEXT = (255, 255, 255)
+COLOR_SCORE = (255, 255, 0)
+COLOR_GAME_OVER = (255, 0, 0)
+COLOR_VICTORY = (0, 255, 0)
 
 # Player colors
 COLOR_PIEL_ZOMBI = (144, 238, 144)   # Pale green for zombie skin

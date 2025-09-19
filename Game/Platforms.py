@@ -86,14 +86,14 @@ class DesertPlatform(Platform):
             pygame.draw.circle(pantalla, (255, 215, 0), (sol_x, sol_y), 20)
             pygame.draw.circle(pantalla, (255, 255, 0), (sol_x, sol_y), 18)
 
-# Ejemplo de uso
-pantalla = pygame.display.set_mode((800, 600))
-plataformas = [
-    DesertPlatform(150, 500, 100, 20),
-    DesertPlatform(200, 400, 100, 20),
-    DesertPlatform(250, 300, 100, 20),
-    DesertPlatform(300, 200, 100, 20)
-]
-for plataforma in plataformas:
-    plataforma.dibujar(pantalla)
-pygame.display.flip()
+# Ejemplo de uso (comentado para evitar conflictos)
+# pantalla = pygame.display.set_mode((800, 600))
+# plataformas = [
+#     DesertPlatform(150, 500, 100, 20),
+#     DesertPlatform(200, 400, 100, 20),
+#     DesertPlatform(250, 300, 100, 20),
+#     DesertPlatform(300, 200, 100, 20)
+# ]
+# for plataforma in plataformas:
+#     plataforma.dibujar(pantalla)
+# pygame.display.flip()
